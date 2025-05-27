@@ -9,7 +9,7 @@ load_dotenv()
 # Neo4j connection details
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
 NEO4J_USERNAME = os. getenv("NEO4J_USERNAME")
-NEO4J_URL = os.getenv("NEO4J_URL")
+NEO4J_URI = os.getenv("NEO4J_URI")
 
 # Load the spaCy model for entity recognition
 nlp = spacy.load("en_core_web_sm")

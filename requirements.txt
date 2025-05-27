@@ -1,0 +1,7 @@
+dotenv
+langchain
+langchain_openai
+langchain_chroma
+langchain_community
+neo4j
+spacy
