@@ -5,3 +5,4 @@ langchain_chroma
 langchain_community
 neo4j
 spacy
+python-telegram-bot
