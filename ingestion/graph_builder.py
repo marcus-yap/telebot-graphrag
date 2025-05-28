@@ -33,7 +33,7 @@ def create_neo4j_session():
     return driver.session()
 
 def load_telegram_docs():
-    loader = TelegramChatFileLoader("./data/telegram_export/export.json")
+    loader = TelegramChatFileLoader("./data/telegram_export/result.json")
     return loader.load()
 
 def extract_entities(text):

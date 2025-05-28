@@ -1,5 +1,6 @@
 # Private Data
-data/telegram_export/result.json
+data/telegram_export/
+data/vector_store/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
